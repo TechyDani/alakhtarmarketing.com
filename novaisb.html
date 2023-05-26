@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        NOVA CITY ISLAMABAD
+    </title>
+    <link rel="stylesheet" href="novaisb.css">
+    <link rel="stylesheet" href="css1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <!------------Header----------->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/img/logoa.png" alt="">
+            </div>
+            <ul>
+                <li><a href="./main.html">Home</a></li>
+                <li><a href="./blog.html">BLOG</a></li>
+                <li><a href="./videos.html">VIDEOS</a></li>
+                <li><a href="#">Societies</a></li>
+                <li><a href="#">OFFERS</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CAREER</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+            <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+
+        <div class="dropdown_menu">
+            <li><a href="./main.html">HOME</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./videos.html">VIDEOS</a></li>
+            <li><a href="./gallary.html">Gallery</a></li>
+            <li><a href="#">OFFERS</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">CAREER</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+        </div>
+
+        <script>
+            const toggleBtn = document.querySelector('.toggle_btn')
+            const toggleBtnIcon = document.querySelector('.toggle_btn i')
+            const dropDownMenu = document.querySelector('.dropdown_menu')
+
+            toggleBtn.onclick = function() {
+                dropDownMenu.classList.toggle('open')
+            }
+        </script>
+
+    </header>
+    <!------------Header----------->
+
+    <div class="novaisb-items">
+        <br>
+        <div class="novaisb">
+            <div class="novaisb-col">
+                <h1>NOVA CITY<br> <span>ISLAMABAD</span></h1>
+            </div>
+            <div class="descrip">
+                <p>"Nova City Islamabad is a project by Nova developers. This project is located at the prime location which is accessible from twin cities, Islamabad and Rawalpindi. The project is situated at Fateh Jang Road with the proximity of Islamabad
+                    International Airport, CPEC Route and motorway."
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="payment-plan">
+        <br>
+        <ul>
+            <li><img src="assets/img/novaisbcommercial.jpeg" alt=""></li>
+            <br>
+            <li><img src="assets/img/novanewprice.jpeg" alt=""></li>
+            <br>
+            <li><img src="assets/img/novaisbexeclusive.jpeg" alt=""></li>
+        </ul>
+        <br><br>
+    </div>
+
+</body>
+
+</html>
